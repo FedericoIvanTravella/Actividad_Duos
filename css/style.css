@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    height: 100px;
+    background-color: #A888B5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado img {
+    margin: 10px;
+    height: 90px;
+    width: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.encabezado img:hover {
+    filter: drop-shadow(1px 1px 1px black);
+    transform: scale(0.9);
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.menu a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2b0144;
+}
+
+.btncontactos {
+    background-color: #2b0144;
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke !important;
+    transition: 0.5s ease-in-out;
+}
+
+.btncontactos:hover {
+    transform: scale(0.9);
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    height: 100vh;
+}
