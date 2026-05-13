@@ -38,5 +38,13 @@ export const DB=[
         Stock:9,
         Descripcion:'Funko pop de Alguien//',    
         Imagen:'../src/productos/5.png'
+    },
+     {
+        ID:6,
+        Nombre:'Funko Pop',
+        Precio:120000,
+        Stock:2,
+        Descripcion:'Funko pop de Alguien//',    
+        Imagen:'../src/productos/6.png'
     }
 ]

@@ -5,22 +5,23 @@
 }
 
 .encabezado {
-    height: 100px;
-    background-color: #A888B5;
+    height: 125px;
+    background-color: #FFF8F0;
     display: flex;
     justify-content: space-between;
 }
 
 .encabezado img {
-    margin: 10px;
-    height: 90px;
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 75px;
     width: auto;
     transition: 0.5s ease-in-out;
 }
 
 .encabezado img:hover {
     filter: drop-shadow(1px 1px 1px black);
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
 
@@ -28,17 +29,18 @@
     display: flex;
     align-items: center;
     margin-right: 10px;
+    gap: 5px;
 }
 
 .menu a {
     margin-right: 10px;
     text-decoration: none;
     font-size: 18px;
-    color: #2b0144;
+    color: #170422;
 }
 
 .btncontactos {
-    background-color: #2b0144;
+    background-color: #D53E0F;
     padding: 10px;
     border-radius: 10px;
     color: whitesmoke !important;
@@ -57,32 +59,65 @@
 footer {
     display: flex;
     justify-content: space-between;
-    height: 250px;
-    background: #A888B5;
-    width: 100%;
-    padding: 25px;
+    height: 210px;
+    background: #FFF8F0;
+    width: 100%;    
+    padding: 15px;
 }
 
 .infofooter { 
-    width: 50%;
+    width: 45%;
 }
 
 
 .infofooter img {
-    width: 100px;
-    height: auto;
-    object-fit: contain;
-    margin: 0px 10px 5pX;
+    margin: 0px;
+    height: 75px;
+    width: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.infofooter img:hover {
+    filter: drop-shadow(1px 1px 1px black);
+    transform: scale(1.1);
+}
+
+.logofooter {
+  width: 45%; 
+  margin-left:25px;
+  display: flex;
+  flex-direction: row;  
+  gap: 15px;
+}
+
+.logofooter img {
+  max-width: 420px; 
+  max-height: 40px;
+  margin-bottom: 35px;
+  object-fit: contain;
+  opacity: 10; 
+  transition: opacity 0.3s ease; 
+}
+
+.logofooter img:hover {
+  opacity: 10;
 }
 
 .infofooter p {
-    margin: 3px;
     font-family: 18px;
-    line-height: 28px;
+    line-height: 20px;
+    color: #170422;
+}
+
+iframe {
+    width: 55%;
+    height: 175px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px #060c16;
 }
 
 .infonav {
-    width: 30%;
+    width: 33%;
 }
 
 .infonav nav {
@@ -94,42 +129,80 @@ footer {
 }
 
 .infonav nav h1{
+    margin-top: 10px;
     text-decoration: none;
     font-size: 20px;
-    color: #190027;
+    color: #461809;
 }
 
 .infonav nav a{
     margin-right: 10px;
     text-decoration: none;
-    font-size: 18px;
-    color: #2b0144;
+    color: #170422;
 }
 
-.logofooter {
-  width: 45%; 
-  display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  justify-content:center;
-  gap: 45px;
+
+.contenedor {
+    max-width: 1250px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
-.logofooter img {
-  max-width: 50px; 
-  max-height: 50px;
-  object-fit: contain;
-  opacity: 0.5; 
-  transition: opacity 0.3s ease; 
-}
-
-.logofooter img:hover {
-  opacity: 1;
-}
-
-iframe {
-    width: 75%;
-    height: 200px;
+.Tarjetas {
+    display: flex;
+    flex-direction: column;
+    width:385px;
+    height: 550px;
     border-radius: 10px;
-    box-shadow: 5px 5px 8px #060c16;
+    box-shadow: 3px 3px 20px #461809;
+    padding: 10px;
+    transition: 0.5 ease-in-out;
+}
+
+.Tarjetas h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #461809;
+;
+}
+
+.Tarjetas h2 {
+    margin-left: 15px;
+    color: #170422;
+    font-size: 25px;
+}
+
+.Tarjetas p {
+    margin-left: 15px;
+    font-style: oblique;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+.Tarjetas img {
+    width: 300px;
+    height: 320px;
+    align-items: center;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.Tarjetas:hover {
+    transform: scale(0.9);
+}
+
+.Tarjetas h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background: #D53E0F;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
 }
